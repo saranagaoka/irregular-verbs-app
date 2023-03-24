@@ -9,7 +9,7 @@ function Header() {
   );
   const [isMenu, setIsMenu] = useState(false);
   const choose = (el: number) => {
-    setChoosenButton(choosenButton == el ? undefined : el);
+    setChoosenButton(choosenButton === el ? undefined : el);
   };
   const openMenu = () => {
     setIsMenu((prev) => !prev);
@@ -20,7 +20,11 @@ function Header() {
       <div className="header__arrow">
         <h1>App Name</h1>
         <button className="header__arrowButton" onClick={openMenu}>
-          <img src={Arrow} className={isMenu ? "header__arrowImg" : ""} />
+          <img
+            src={Arrow}
+            className={isMenu ? "header__arrowImg" : ""}
+            alt="arrow"
+          />
         </button>
       </div>
       {isMenu && (
@@ -29,7 +33,7 @@ function Header() {
           <div className="header__num">
             {buttonNumbers.map((el, i) => (
               <button
-                className={choosenButton == el ? "choosenButton" : ""}
+                className={choosenButton === el ? "choosenButton" : ""}
                 onClick={() => {
                   choose(el);
                 }}
