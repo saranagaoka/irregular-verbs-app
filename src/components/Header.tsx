@@ -30,19 +30,18 @@ function Header() {
       {isMenu && (
         <div className="header__gradeWrapper">
           <div className="header_grade">Grade </div>
-          <div className="header__num">
-            {buttonNumbers.map((el, i) => (
-              <button
-                className={choosenButton === el ? "choosenButton" : ""}
-                onClick={() => {
-                  choose(el);
-                }}
-                key={i}
-              >
-                {el}
-              </button>
-            ))}
-          </div>
+
+          {buttonNumbers.map((el, i) => (
+            <button
+              className={choosenButton === el ? "choosenButton" : ""}
+              onClick={() => {
+                choose(el);
+              }}
+              key={i}
+            >
+              {el}
+            </button>
+          ))}
         </div>
       )}
     </div>

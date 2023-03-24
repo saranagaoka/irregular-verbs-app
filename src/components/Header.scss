@@ -15,27 +15,30 @@
   background-color: $dark-yellow;
   width: fit-content;
   border-radius: 20px;
-  height: 28px;
-  width: 164px;
   justify-content: space-between;
-  padding: 0 8px;
-}
-
-.header__num {
-  display: flex;
-  justify-content: space-around;
-  width: 60%;
+  padding: 4px 8px;
+  gap: 8px;
 
   button {
     background-color: transparent;
+    color: black;
     border: none;
     border-radius: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    width: 22px;
+    height: 22px;
+    padding: 2px;
+    &.choosenButton {
+      background-color: $dark-blue;
+      border-radius: 20px;
+    }
   }
+}
 
-  .choosenButton {
-    background-color: $dark-blue;
-    border-radius: 20px;
-  }
+.header_grade {
+  margin-right: 8px;
 }
 
 .header h1 {
