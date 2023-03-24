@@ -1,0 +1,60 @@
+{
+  "verbs": [
+    {
+      "pl": "być",
+      "in": "be",
+      "ps": "was/were",
+      "pp": "been",
+      "lvl": "ok",
+      "grade": 5
+    },
+    {
+      "pl": "zostawać",
+      "in": "become",
+      "ps": "became",
+      "pp": "become",
+      "lvl": "ok",
+      "grade": 6
+    },
+    {
+      "pl": "tłuc, połamać, psuć",
+      "in": "break",
+      "ps": "broke",
+      "pp": "broken",
+      "lvl": "hard",
+      "grade": 6
+    },
+    {
+      "pl": "przynosić",
+      "in": "bring",
+      "ps": "brought",
+      "pp": "brought",
+      "lvl": "hard",
+      "grade": 7
+    },
+    {
+      "pl": "kupować",
+      "in": "buy",
+      "ps": "bought",
+      "pp": "bought",
+      "lvl": "ok",
+      "grade": 7
+    },
+    {
+      "pl": "wybierać",
+      "in": "choose",
+      "ps": "chose",
+      "pp": "chosen",
+      "lvl": "hard",
+      "grade": 8
+    },
+    {
+      "pl": "przychodzić",
+      "in": "come",
+      "ps": "came",
+      "pp": "come",
+      "lvl": "ok",
+      "grade": 8
+    }
+  ]
+}
